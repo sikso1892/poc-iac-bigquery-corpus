@@ -1,0 +1,9 @@
+# BigQuery와 관련된 라이브러리
+google-cloud-bigquery
+
+# 데이터 처리 및 분석을 위한 라이브러리
+pandas
+numpy
+
+# Jupyter 노트북
+jupyter

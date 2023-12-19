@@ -1,0 +1,18 @@
+{
+    "name": "Bigquery Dev container",
+    "build": {
+        "context": "..",
+        "dockerfile": "../docker/images/bigquery-tool/Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-vscode.cpptools"
+    ],
+    "forwardPorts": [
+        8080
+    ],
+    "postCreateCommand": "echo 'Environment setup complete'"
+}
